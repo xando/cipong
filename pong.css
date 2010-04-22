@@ -1,0 +1,61 @@
+body {
+    padding: 50px;
+    background-color: black;
+}
+
+#realm {
+    
+}
+
+#world {
+}
+
+#playground {
+    float:left;
+}
+
+.plate {
+    background-color: black;
+}
+
+.plate td {
+    width: 13px;
+    height: 15px;
+}
+
+#l_plate {
+    float:left;
+}
+
+#r_plate {
+    float:left;
+}
+
+table {
+    border-collapse: collapse;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+table tr{
+    border: green 1px;
+}
+
+td.block {
+    height: 15px;
+    width: 13px;
+    background: black;
+    border: 0px;
+}
+
+td.current_position {
+    background-image: url(ball.png);
+    background-repeat:no-repeat;
+    height: 15px;
+    width: 13px;
+}
+
+.platetd {
+    background: yellow;
+}
+
